@@ -1,0 +1,111 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(48, 48 ,48);
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  min-height: 100px;
+  background-color: #4680AE;
+}
+
+p {
+  font-size: 15px;
+  color: white;
+}
+
+header .title {
+  width: 33.3%;
+  height: 100px;
+  text-align: center;
+  padding-top: 8px;
+}
+
+header .title p.bigger{
+  font-size: 40px;
+}
+
+main {
+  width: 100vw;
+  height: 100%;
+}
+
+main .score-text {
+  text-align: center;
+  margin-top: 10px;
+}
+
+main .score-text p{
+  font-size: 25px;
+}
+
+.content,
+.options {
+  display: flex;
+  justify-content: center;
+  margin-top: 20vw;
+}
+
+.content p.question {
+  font-size: 40px;
+  text-align: center;
+}
+
+.options {
+  margin-top: 20px;
+}
+
+.options div.option {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all 0.45s ease;
+}
+
+.options div.option:last-child {
+  margin-right: 0px;
+}
+
+div.option.scale {
+  transform: scale(46);
+  border-radius: 0px;
+}
+
+.result {
+  display: none;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  width: 100%;
+}
+
+.result span {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.result .close {
+  margin-top: 20px;
+}
+
+.result .close a {
+  color: white;
+  font-size: 21px;
+  text-decoration: none;
+  border: 5px solid white;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
