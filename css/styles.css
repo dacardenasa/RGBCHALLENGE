@@ -87,6 +87,7 @@ div.option.scale {
 .result {
   display: none;
   position: absolute;
+  color: white;
   top: 40%;
   left: 45%;
   width: 100%;
